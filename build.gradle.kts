@@ -161,7 +161,7 @@ tasks.register<NpmTask>("installDocusaurus") {
 }
 // Task to build the Docusaurus site
 tasks.register<NpmTask>("buildDocusaurus") {
-    dependsOn("genarateOpenAPIMdx")
+    dependsOn("generateOpenAPIMdx")
     group = "documentation"
     description = "Build the Docusaurus static site"
     args.set(listOf("run", "build"))
