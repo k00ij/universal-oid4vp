@@ -169,7 +169,7 @@ tasks.register<NpmTask>("buildDocusaurus") {
     dependsOn("installDocusaurus") // Ensure dependencies are installed
 }
 // Task to build the Docusaurus site
-tasks.register<NpxTask>("genarateOpenAPIMdx") {
+tasks.register<NpxTask>("generateOpenAPIMdx") {
     dependsOn("copyReadme")
     group = "documentation"
     description = "Generate the OpenAPI doc MDX files"
