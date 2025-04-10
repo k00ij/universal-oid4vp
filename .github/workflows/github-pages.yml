@@ -51,4 +51,6 @@ jobs:
       - name: Deploy Docusaurus using Gradle
         run: ./gradlew deployDocusaurus
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_USER:  ${{ secrets.GIT_USER }}
+          GIT_PASS: ${{ secrets.GIT_PASS }}
+          GITHUB_TOKEN: ${{ secrets.GIT_PASS }}

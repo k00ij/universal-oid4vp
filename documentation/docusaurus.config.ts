@@ -18,8 +18,9 @@ const config: Config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
+    organizationName: '4sure-tech', // Usually your GitHub org/user name.
     projectName: 'universal-oid4vp', // Usually your repo name.
+    trailingSlash: false,
 
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
