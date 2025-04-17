@@ -8,9 +8,8 @@ info:
     Due to privacy concerns, it favors POST methods with payloads instead of query/path parameters 
     to reduce log-leakage of sensitive values like query IDs or correlation identifiers.
   contact:
-    name: Niels Klomp
-    url: https://4sure.tech
-    email: nklomp@4sure.tech
+    name: Fides Community
+    url: https://github.com/FIDEScommunity/universal-oid4vp
   license:
     name: Apache2
 
