@@ -15,6 +15,12 @@ import openapiSidebar from './docs/openapi/sidebar';
 const sidebars: SidebarsConfig = {
     docs: [
         {
+            type: 'category',
+            label: 'Overview',
+            items: ['universal-oid4vp-introduction'],
+        },
+
+        {
             type: 'doc',
             id: 'README', // Refers to documentation/docs/readme.md
             label: 'Readme',
